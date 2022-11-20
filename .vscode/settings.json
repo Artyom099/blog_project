@@ -1,0 +1,15 @@
+{
+    "gitlens.hovers.annotations.enabled": true,
+    "gitlens.hovers.annotations.details": true,
+    "gitlens.hovers.annotations.changes": true,
+    "gitlens.hovers.currentLine.details": true,
+    "gitlens.hovers.currentLine.changes": true,
+    "gitlens.hovers.avatars": true,
+    "gitlens.statusBar.alignment": "left",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": true,
+    "gitlens.codeLens.recentChange.command": "gitlens.showQuickCommitFileDetails",
+    "gitlens.codeLens.authors.enabled": true,
+    "gitlens.currentLine.enabled": true,
+    "gitlens.hovers.currentLine.over": "line"
+}

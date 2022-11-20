@@ -1,5 +1,5 @@
-from django.db import models
 import datetime
+from django.db import models
 from django.utils import timezone
 
 # объяснение, что хранить в БД. Модели назывем в ед.ч.
@@ -15,6 +15,7 @@ class Article(models.Model):
 
     def pub_recently(self):
         return self.pub_date >= (timezone.now() - datetime.timedelta(days = 7))
+
     class Meta:
         verbose_name = 'Статья'
         verbose_name_plural = 'Статьи'

@@ -17,8 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('grappelli/', include('grappelli.urls')), # grappelli URLS
+    path('grappelli/', include('grappelli.urls')),  # grappelli URLS
     path('admin/', admin.site.urls),
-    path('', include('blog2.urls')),
-    path('articles/', include('articles.urls')),
+    path('', include('blog2.urls')),                # указал папку, в которой будут прописаны urls для этого пустого пути
+    path('articles/', include('articles.urls')),    # указал папку, в которой будут прописаны urls для этого пути 'articles/'
 ]

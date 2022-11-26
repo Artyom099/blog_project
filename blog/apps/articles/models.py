@@ -2,7 +2,7 @@ import datetime
 from django.db import models
 from django.utils import timezone
 
-# объяснение, что хранить в БД. Модели назывем в ед.ч.
+# объяснение, что хранить в БД. Модели называем в ед.ч.
 # после добавления моделей, надо сделать миграции
 
 class Article(models.Model):
